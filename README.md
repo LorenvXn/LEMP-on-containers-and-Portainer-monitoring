@@ -3,9 +3,8 @@ Some easy stuff on dockerZ & PHP web development
 
 
 
-1) Copy all files from docker_file (preferably, on physical machine create a folder with same name)
 
-2) install docker and docker-compose:
+1)  install docker and docker-compose:
 
 [docker]
 Check link: https://docs.docker.com/engine/installation/linux/ubuntulinux/ 
@@ -19,7 +18,7 @@ more details: https://www.docker.com/products/docker-compose
 
 
 
-3) Run commands: 
+2)  Run commands: 
 
   docker-compose up -d   && docker-compose start  
 
@@ -27,14 +26,14 @@ Check to see if all dockers are up and running, with a `docker ps`
 
 
 
-4) Check docker's ip on physical machine.
+3) Check docker's ip on physical machine.
 
 ifconfig docker0 |  awk '$1 == "inet" {gsub(/\/.*$/, "", $2); print $2}'
 addr:172.17.0.1
 
 
 
-5) Let's check if our website is running on this IP & port, by using command curl
+4) Let's check if our website is running on this IP & port, by using command curl
 
  curl http://172.17.0.1:80
 
@@ -43,7 +42,7 @@ addr:172.17.0.1
 Kewl! So basically a photo and  details on pricing will appear on our page. 
 
 
-6) In case you want to stop all dockers (and hence, your applications), just use "docker-compose stop"
+5) In case you want to stop all dockers (and hence, your applications), just use "docker-compose stop"
 
 
 
