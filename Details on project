@@ -80,7 +80,7 @@ ac27ee5d466d        mysql:latest            "docker-entrypoint.sh"   6 minutes a
 
 
 [Step two}: After you found the specific docker container ID (which will be different on your computer), login on in by using command:
-docker exec -it 5687d9d80949 /bin/bash
+docker exec -it 03dceb02d394 /bin/bash
 
 
 root@tron:~/wild_proj/Docker-PHP-MySQL# docker exec -ti 03dceb02d394 /bin/bash
