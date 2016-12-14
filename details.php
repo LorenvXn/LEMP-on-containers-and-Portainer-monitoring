@@ -23,13 +23,10 @@
 
         foreach($connection->query($sql) as $row)
         {
-
-
-
-        echo "<tr>";
-        echo "<td>". $row['productID'] . "</td>";
-        echo "<td>" . $row['name'] . "</td>";
-        echo "</tr>";
+          echo "<tr>";
+          echo "<td>". $row['productID'] . "</td>";
+          echo "<td>" . $row['name'] . "</td>";
+          echo "</tr>";
         }
         echo "</table>";
 
