@@ -17,20 +17,28 @@ sudo apt-get -y install python-pip sudo pip install docker-compose
 
 more details on docker-compose: https://www.docker.com/products/docker-compose
 
+2) Put below files under same folder:
 
-2) Run commands:
+details.php
+index.php
+docker-compose.yml
+Dockerfile
+default.conf
+
+
+3) Build project by running the following commands:
 
 `docker-compose up -d` && `docker-compose start`
 
 Check to see if all dockers are up and running, with a `docker ps`
 
-3) Check docker's ip on physical machine.
+4) Check docker's ip on physical machine.
 
 #ifconfig docker0 | awk '$1 == "inet" {gsub(/\/.*$/, "", $2); print $2}' 
 addr:172.17.0.1
 
 
-4) Let's check if our website is running on this IP & port, by using command curl
+5 Let's check if our website is running on this IP & port, by using command curl
 
 curl http://172.17.0.1:80
 <!DOCTYPE html>
@@ -48,7 +56,7 @@ curl http://172.17.0.1:80
 
 Kewl! So basically a photo and details on pricing will appear on our page.
 
-5) In case you want to stop all dockers (and hence, your applications), just use "docker-compose stop"
+6) In case you want to stop all dockers (and hence, your applications), just use "docker-compose stop"
 
 ...and that’s it. :)
 
@@ -56,7 +64,7 @@ Kewl! So basically a photo and details on pricing will appear on our page.
 
 
 
-6) Tablespace implementation 
+7) Tablespace implementation 
 ###############################################
 ###
 ### to be used after the creation of dockerZ
