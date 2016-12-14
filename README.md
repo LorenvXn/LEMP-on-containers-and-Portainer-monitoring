@@ -1,2 +1,2 @@
 # Docker-PHP-MySQL
-Some easy stuff on implementing PHP web development on dockerZ
+Some easy stuff on dockerZ & PHP web development 
