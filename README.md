@@ -36,25 +36,12 @@ addr:172.17.0.1
 
 5) Let's check if our website is running on this IP & port, by using command curl
 
-
-root@tron:~# curl http://172.17.0.1:80
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title>Shoppish~~</title>
-    </head>
-    <body>
-        <img src=" <<some link>>>" alt="Shoppish!!" height="342" width="242" />
-        <dt>Price: </dt><dd>1.23 </dd>  <p><a href = "details.php"> Click for more details</a></p>
-    </body>
-</html>
-root@tron:~#
-
+ curl http://172.17.0.1:80
 
 
 
 Kewl! So basically a photo and  details on pricing will appear on our page. 
+
 
 6) In case you want to stop all dockers (and hence, your applications), just use "docker-compose stop"
 
