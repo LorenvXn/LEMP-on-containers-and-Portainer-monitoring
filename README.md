@@ -45,7 +45,7 @@ root@tron:~# curl http://172.17.0.1:80
         <title>Shoppish~~</title>
     </head>
     <body>
-        <img src="http://cdn. birthdayinabox. com/images/product /large/TY8457SW.jpg" alt="Shoppish!!" height="342" width="242" />
+        <img src=" <<some link>>>" alt="Shoppish!!" height="342" width="242" />
         <dt>Price: </dt><dd>1.23 </dd>  <p><a href = "details.php"> Click for more details</a></p>
     </body>
 </html>
