@@ -29,7 +29,7 @@ default.conf
 
 3) Build project by running the following commands:
 
-`docker-compose up -d` && `docker-compose start`
+`docker-compose up -d ui` && `docker-compose start`
 
 Check to see if all dockers are up and running, with a `docker ps`
 
