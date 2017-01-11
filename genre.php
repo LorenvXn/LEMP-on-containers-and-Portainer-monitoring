@@ -41,7 +41,7 @@
         		$connection=null;
         		?>
        			 </h3>
-			       <a href="index.php"><img src="pics/Solaris.jpg" height="542" width="242" /></a></div>
+			       <a href="ScienceFiction.php"><img src="pics/Solaris.jpg" height="542" width="242" /></a></div>
 
 
 
@@ -63,7 +63,7 @@
                         $connection=null;
                         ?>
                          </h2>
-                               <a href="index.php"><img src="pics/bullet.jpg" height="542" width="242" /></a></div>
+                               <a href="Horror.php"><img src="pics/bullet.jpg" height="542" width="242" /></a></div>
 
         <div id="Adventure">
                 <h2>

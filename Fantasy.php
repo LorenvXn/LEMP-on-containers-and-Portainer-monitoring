@@ -8,7 +8,7 @@
 	  <div id="Fantasy">
 	<h3>
 
-	<img src="pics/hobbit.jpeg" alt="Fantasy" height="542" width="242" />
+	<img src="pics/hobbit.jpeg" alt="Fantasy" height="642" width="330" />
 	   <?php
         $database   = $user = $password = "Alex";
         $host       = "mysql";
@@ -16,36 +16,78 @@
         $query      = $connection->query("SELECT TABLE_NAME FROM information_schema.TABLES WHERE TABLE_TYPE='BASE TABLE'");
         $tables     = $query->fetchAll(PDO::FETCH_COLUMN);
 
-	$sql="select `price`, `productID` from `fantasy` where `productID`=1001";
+	$sql="select `price` from `fantasy` where `productID`=1001";
 
-	 echo "<table border='1'>
-        <tr>
-        <th>Product ID </th>
-        <th>Price</th>
-        </tr>";
 
 	$result = $connection->query($sql);
 	  while($row = $result->fetch(PDO::FETCH_BOTH)) {
-	   echo "<tr>";
-          echo "<td>". $row['productID'] . "</td>";
-          echo "<td>" . $row['price'] . "</td>";
-          echo "</tr>";
-
+		echo "Price: ". $row["price"] ;
+  
   	}
 
 
-        echo "</table>";
 
 
         $connection=null;
 	?>
 
-         <p><form><input class="MyOrderButton" type="button" value="Order" onclick="window.location.href='order.php'" /> </form></p>
+	 <p><form><input class="MyOrderButton" type="button" value="Details" onclick="window.location.href='details.php'" /> </form></p>
 	</h3></div>
 
+	 <div id="Fantasy1">
+
+	  <h3>
+
+        <img src="pics/Silmarillion.jpeg" alt="Fantasy" height="642" width="430" />
+           <?php
+        $database   = $user = $password = "Alex";
+        $host       = "mysql";
+        $connection = new PDO("mysql:host={$host};dbname={$database};charset=utf8", $user, $password);
+        $query      = $connection->query("SELECT TABLE_NAME FROM information_schema.TABLES WHERE TABLE_TYPE='BASE TABLE'");
+        $tables     = $query->fetchAll(PDO::FETCH_COLUMN);
+
+        $sql="select `price`, `productID`, `namebook`, `author` from `fantasy` where `productID`=1002";
+	
+	    $result = $connection->query($sql);
+          while($row = $result->fetch(PDO::FETCH_BOTH)) {
+                echo "Price: ". $row["price"] ;
+
+
+
+        }
+
+
+
+        $connection=null;
+        ?>
+	 <p><form><input class="MyOrderButton" type="button" value="Details" onclick="window.location.href='details1.php'" /> </form></p>
+        </h3></div>
+
+	         <div id="Fantasy2">
+
+          <h3>
+
+        <img src="pics/vlad.jpg" alt="Fantasy height="642" width="430" />
+           <?php
+        $database   = $user = $password = "Alex";
+        $host       = "mysql";
+        $connection = new PDO("mysql:host={$host};dbname={$database};charset=utf8", $user, $password);
+        $query      = $connection->query("SELECT TABLE_NAME FROM information_schema.TABLES WHERE TABLE_TYPE='BASE TABLE'");
+        $tables     = $query->fetchAll(PDO::FETCH_COLUMN);
+
+        $sql="select `price`, `productID`, `namebook`, `author` from `fantasy` where `productID`=1004";
+
+	            $result = $connection->query($sql);
+          while($row = $result->fetch(PDO::FETCH_BOTH)) {
+                echo "Price: ". $row["price"] ;
+
+
+	}
+        $connection=null;
+        ?>
+	 <p><form><input class="MyOrderButton" type="button" value="Details" onclick="window.location.href='details2.php'" /> </form></p>
+        </h3></div>
+	
 
     </body>
 </html>
-~
-
-

@@ -2,7 +2,7 @@
 <html lang="en">
         <meta charset="utf-8">
         <title>Details~~</title>
-	    <head><link rel="stylesheet" href="styledetails.css" type="text/css" />
+	    <head><link rel="stylesheet" href="SFstyledetails.css" type="text/css" />
         <meta charset="utf-8">
 
     </head>
@@ -12,7 +12,7 @@
     <p>Nothing but classic books</p>
     <ul id="menu">
         <li><a href="index.php">home</li></a>
-        <li><a href="Fantasy.php">Fantasy</li></a>
+        <li><a href="ScienceFiction.php">Science Fiction</li></a>
         <li><input type="search" placeholder="search"></li>
     </ul>
 </div>
@@ -22,7 +22,7 @@
         ?>
 <div id = "photo">
 <h3>
-<img src="pics/hobbit.jpeg" alt="Fantasy" height="642" width="342" /></div>
+<img src="pics/Solaris.jpg" alt="Fantasy" height="642" width="342" /></div>
    </h3> 
 
 <div id = "paragraph">

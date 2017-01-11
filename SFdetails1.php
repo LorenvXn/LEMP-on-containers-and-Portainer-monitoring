@@ -12,7 +12,7 @@
     <p>Nothing but classic books</p>
     <ul id="menu">
         <li><a href="index.php">home</li></a>
-        <li><a href="Fantasy.php">Fantasy</li></a>
+        <li><a href="ScienceFiction.php">Science Fiction</li></a>
         <li><input type="search" placeholder="search"></li>
     </ul>
 </div>
@@ -22,7 +22,7 @@
         ?>
 <div id = "photo">
 <h3>
-<img src="pics/hobbit.jpeg" alt="Fantasy" height="642" width="342" /></div>
+<img src="pics/dune.jpeg" alt="Science Fiction" height="642" width="342" /></div>
    </h3> 
 
 <div id = "paragraph">

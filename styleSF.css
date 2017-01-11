@@ -1,4 +1,4 @@
-#Fantasy {
+#ScienceFiction {
     width: 200px;
     height: 200px;
     float: left;
@@ -6,19 +6,19 @@
 
 }
 
-#Fantasy1 {
+#ScienceFiction1 {
     width: 200px;
     height: 200px;
     float: left;
     margin: 70px;
 }
 
-#Fantasy2 {
-    width: 200px;
+#ScienceFiction2 {
+   width: 200px;
     height: 200px;
     float: left;
-    margin: 70px;
-    margin-left: 140px;
+    margin: 40px;
+    margin-left: 165px;
 }
 
 
