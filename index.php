@@ -26,6 +26,7 @@
 	<p><form><input class="MyButton" type="button" value="Genre" onclick="window.location.href='genre.php'" /> </form></p>
 	<p><form><input class="MyButton1"  type="button" value="About us" onclick="window.location.href='aboutus.php'" /> </form></p>
 	<p><form><input class="MyButton1"  type="button" value="Contact us" onclick="window.location.href='aboutus.php'" /> </form></p>
+	<p><form><input class="MyButton1"  type="button" value="Search" onclick="window.location.href='search.php'" /> </form></p>
     </body>
 </html>
 ~

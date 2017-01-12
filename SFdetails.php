@@ -2,7 +2,7 @@
 <html lang="en">
         <meta charset="utf-8">
         <title>Details~~</title>
-	    <head><link rel="stylesheet" href="SFstyledetails.css" type="text/css" />
+	    <head><link rel="stylesheet" href="Horrorstyledetails.css" type="text/css" />
         <meta charset="utf-8">
 
     </head>
@@ -20,10 +20,12 @@
 
 
         ?>
-<div id = "photo">
-<h3>
-<img src="pics/Solaris.jpg" alt="Fantasy" height="642" width="342" /></div>
-   </h3> 
+
+<div id="thumbwrap">
+<a class="thumb" href="#"><img src="pics/Solaris.jpg" alt="" height="400" width="292"><span><img src="pics/Solaris.jpg" alt="" height="700" width="492"></span></a>
+
+</div>
+
 
 <div id = "paragraph">
 <h2>

@@ -82,7 +82,7 @@
                         $connection=null;
                         ?>
                          </h2>
-                               <a href="index.php"><img src="pics/moby.jpg" height="542" width="242" /></a></div>
+                               <a href="Adventure.php"><img src="pics/moby.jpg" height="542" width="242" /></a></div>
 
     </body>
 </html>

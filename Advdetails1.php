@@ -12,7 +12,7 @@
     <p>Nothing but classic books</p>
     <ul id="menu">
         <li><a href="index.php">home</li></a>
-        <li><a href="Horror.php">Horror</li></a>
+        <li><a href="Adventure.php">Adventure</li></a>
         <li><input type="search" placeholder="search"></li>
     </ul>
 </div>
@@ -22,7 +22,7 @@
         ?>
 
 <div id="thumbwrap">
-<a class="thumb" href="#"><img src="pics/bullet.jpg" alt="" height="400" width="292"><span><img src="pics/bullet.jpg" alt="" height="700" width="492"></span></a>
+<a class="thumb" href="#"><img src="pics/thinair.jpeg" alt="" height="400" width="292"><span><img src="pics/thinair.jpeg" alt="" height="700" width="492"></span></a>
 
 </div>
 

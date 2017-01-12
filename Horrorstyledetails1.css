@@ -67,36 +67,34 @@ body {
         padding:20px 0px;
 }
 
-
 #thumbwrap {
-        position:relative;
-        margin:75px auto;
-        width:1720px; height:235px;
+	position:relative;
+	margin:75px auto;
+	width:1720px; height:235px;
 }
 .thumb {
-        float:left; 
-        position:relative;
-        margin:3px;
+	float:left; /* must be floated for same cross browser position of larger image */
+	position:relative;
+	margin:3px;
 }
-.thumb img {
-        border:1px solid #000;
-        margin:3px;
-        float:left;
+.thumb img { 
+	border:1px solid #000;
+	margin:3px;
+	float:left;
 }
-.thumb span {
-        position:absolute;
-        visibility:hidden;
+.thumb span { 
+	position:absolute;
+	visibility:hidden;
 }
 .thumb:hover {
-        border:0;
-        z-index:1;
+	border:0;
+	z-index:1;
 }
-.thumb span {
-        position:absolute;
-        visibility:hidden;
+.thumb span { 
+	position:absolute;
+	visibility:hidden;
 }
-.thumb:hover span {
-        visibility:visible;
-        top:0; left:750px;
+.thumb:hover span { 
+	visibility:visible;
+	top:0; left:750px; 
 }
-

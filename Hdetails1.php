@@ -22,7 +22,7 @@
         ?>
 
 <div id="thumbwrap">
-<a class="thumb" href="#"><img src="pics/dracula.jpg" alt="" height="300" width="192"><span><img src="pics/dracula.jpg" alt=""></span></a>
+<a class="thumb" href="#"><img src="pics/dracula.jpg" alt="" height="400" width="292"><span><img src="pics/dracula.jpg" alt="" height="700" width="492"></span></a>
 
 </div>
 
