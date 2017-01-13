@@ -13,7 +13,8 @@
     <ul id="menu">
         <li><a href="index.php">home</li></a>
         <li><a href="Fantasy.php">Fantasy</li></a>
-        <li><input type="search" placeholder="search"></li>
+	<li><a href="genre.php">Genre</li></a>
+	 <li><a href="search.php">Search</li></a>
     </ul>
 </div>
         <?php

@@ -11,9 +11,10 @@
     <h2>Book Store</h2>
     <p>Nothing but classic books</p>
     <ul id="menu">
-        <li><a href="index.php">home</li></a>
-        <li><a href="Horror.php">Horror</li></a>
-        <li><input type="search" placeholder="search"></li>
+        <li><a href="index.php">[Home]</li></a>
+        <li><a href="Horror.php">[Horror]</li></a>
+	<li><a href="search.php">[Search]</li></a>
+	<li><a href="genre.php">[Genre]</li></a>
     </ul>
 </div>
         <?php

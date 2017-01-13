@@ -1,16 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-        <title>search</title>
+ <head><link rel="stylesheet" href="Searchstyle.css" type="text/css" />
         <meta charset="utf-8">
-
+        <title>Search</title>
     </head>
+ <div id="header">
+    <h2>Book Store</h2>
+    <p>Nothing but classic books</p>
+    <ul id="menu">
+        <li><a href="index.php">home</li></a>
+    </ul>
+</div>
+<div id = "Fantasy">
+<h3>
 <body>
 <form name="frmSearch" method="post" action="search.php">
   <table width="599" border="0">
     <tr>
-      <th>Keyword
+      <th>Look for results
       <input name="var1" type="text" id="var1">
-      <input class="MyButton1"  type="button" value="Search"></th>
+     <input class="MyButton1" type="button"  value="Search"></th>
     </tr>
   </table>
 </form>
@@ -26,7 +35,7 @@
 $var1 = str_replace(array('%','_'),'',$_POST['var1']);
 if (!$var1)
 {
-    exit('Insert a value: '.$var1);
+    exit(' '.$var1);
 }
 
 
@@ -44,7 +53,7 @@ $result = $stmt->fetchAll();
 	echo "Results:<br/><br/>";
           foreach( $result as $row ) {
 	echo " " . $row['namebook']  .  '          '."\n"; 
-	 echo "<a href='" . $row["link"] . "'>Link</a><br/>";    
+	 echo "<a href='" . $row["link"] . "'>Details</a><br/>";    
 	
 
 
@@ -56,5 +65,6 @@ $result = $stmt->fetchAll();
 
 print ("\n");
 ?>
+</h3></div>
 </body>
 </html>
