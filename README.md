@@ -29,7 +29,7 @@ Nice, website is done!
 And now, for a quick view: (http://localhost:80)
 
 
-//Not so much to see on 1st page, but go ahead, unleash the beast, and add buttons as much as you want to!
+<i>Not so much to see on 1st page, but go ahead, unleash the beast within you, and add buttons as much as you want to!</i>
 
 ![ScreenShot](https://github.com/Satanette/test/blob/master/1212.png)
 
